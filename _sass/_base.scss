@@ -36,6 +36,7 @@ a, table.table a {
 
 .profile {
   margin-left: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 
   .address {
@@ -413,3 +414,9 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+
+.anchor {
+  scroll-margin-top: 5em;
+}
+  
