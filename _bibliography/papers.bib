@@ -1,68 +1,5 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title     = {Investigations on the Theory of the Brownian Movement},
-  author    = {Einstein, Albert},
-  year      = {1956},
-  publisher = {Courier Corporation,}
-}
-@article{einstein1950meaning,
-  abbr      = {AJP},
-  title     = {The meaning of relativity},
-  author    = {Einstein, Albert and Taub, AH},
-  journal   = {American Journal of Physics,},
-  volume    = {18},
-  number    = {6},
-  pages     = {403--404},
-  year      = {1950},
-  publisher = {American Association of Physics Teachers,},
-  pdf       = {cv.pdf}
-}
-@article{PhysRev.47.777,
-  abbr      = {PhysRev},
-  title     = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author    = {Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract  = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal   = {Phys. Rev.,},
-  volume    = {47},
-  issue     = {10},
-  pages     = {777--780},
-  numpages  = {0},
-  year      = {1935},
-  month     = {May},
-  publisher = aps,
-  doi       = {10.1103/PhysRev.47.777},
-  url       = {http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html      = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf       = {example_pdf.pdf}
-}
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik,},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.,},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
 @inproceedings{bojchevski2020sparse,
   title     = {Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More},
   author    = {Bojchevski, Aleksandar and Klicpera, Johannes and G{\"u}nnemann, Stephan},
@@ -132,6 +69,7 @@
   arxiv     = {1809.01093},
   code      = {https://github.com/abojchevski/node_embedding_attack},
   award     = {Oral},
+  selected  = {true},
   slides    = {slides_embedding_attack.pdf},
   poster    = {poster_embedding_attack.pdf},
   talk      = {https://www.videoken.com/embed/1zMVZKlxfU4?tocitem=1},
@@ -151,7 +89,7 @@
   poster    = {poster_ppnp.pdf}
 }
 @inproceedings{bojchevski2019pagerank,
-  title     = {Is {PageRank} all you need for scalable graph neural networks?},
+  title     = {Is {PageRank} All You Need for Scalable Graph Neural Networks?},
   author    = {Bojchevski, Aleksandar and Klicpera, Johannes and Perozzi, Bryan and Blais, Martin and Kapoor, Amol and Lukasik, Michal and G{\"u}nnemann, Stephan},
   booktitle = {International Workshop on Mining and Learning with Graphs, MLG},
   year      = {2019},
@@ -162,7 +100,7 @@
   pdf       = {https://www.mlgworkshop.org/2019/papers/MLG2019_paper_50.pdf}
 }
 @inproceedings{monti2018dual,
-  title     = {Dual-primal graph convolutional networks},
+  title     = {Dual-primal Graph Convolutional Networks},
   author    = {Monti, Federico and Shchur, Oleksandr and Bojchevski, Aleksandar and Litany, Or and G{\"u}nnemann, Stephan and Bronstein, Michael M},
   booktitle = {Graph Embedding and Mining Workshop, {GEM}},
   year      = {2019},
@@ -259,7 +197,8 @@
   category  = {conference},
   html      = {https://dl.acm.org/doi/10.1145/3097983.3098156},
   code      = {https://github.com/abojchevski/rsc},
-  poster    = {poster_rsc.pdf}
+  poster    = {poster_rsc.pdf},
+  pdf       = {paper_rsc.pdf},
 }
 @article{cejuela2017nala,
   title    = {nala: Text Mining Natural Language Mutation Mentions},
@@ -273,6 +212,16 @@
   category = {conference}
 }
 
+@thesis{bojchevski2020thesis,
+  title    = {Machine Learning on Graphs in the Presence of Noise and Adversaries},
+  author   = {Bojchevski, Aleksandar},
+  year     = {2020},
+  abstract = {From protein interactions to social networks, complex systems of interlinked entities are endemic in a connected world and graphs are a powerful abstraction for capturing their structure. Accordingly, we have a rich literature of machine learning techniques for graph data to solve problems ranging from fraud detection to cancer classification. Since in reality data is unreliable understanding the robustness of these techniques to noise and adversaries is critical. The contributions of this thesis deepen our understanding of robustness for three types of models: unsupervised, generative, and semi-supervised.  First, we derive a noise-resilient variant of the classical spectral embedding, and we introduce Gaussian embeddings that represent nodes as distributions to capture uncertainty. Then we study the sensitivity of node embeddings to graph poisoning. Next, we develop a generative model that explicitly accounts for anomalies and detects clusters obfuscated by noise. Finally, we derive provable robustness guarantees. We propose the first certificate w.r.t. structure perturbations for a large class of PageRank-based models, and we derive a general certificate for discrete data applicable to any graph classifier.},
+  school   = {Technical University of Munich},
+  category = {thesis},
+  abbr     = {PhD},
+}
+
 @thesis{bojchevski2016thesis,
   title    = {Semi-supervised Learning for Biomedical Named-Entity Recognition},
   author   = {Bojchevski, Aleksandar},
@@ -281,7 +230,19 @@
   school   = {Technical University of Munich},
   category = {thesis},
   pdf      = {master_thesis.pdf},
-  abbr     = {TUM},
+  abbr     = {MSc},
   slides   = {master_thesis_slides.pdf},
   code     = {https://github.com/Rostlab/nala}
 }
+
+@thesis{bojchevski2013,
+  title    = {Personality Prediction Based on Information from Social Networks},
+  author   = {Bojchevski, Aleksandar},
+  year     = {2013},
+  school   = {Ss. Cyril and Methodius University},
+  category = {thesis},
+  abbr     = {BSc},
+}
+
+
+
