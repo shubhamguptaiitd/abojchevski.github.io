@@ -6,7 +6,8 @@ description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: prof_pic.jpg
+  address: first.lastname@in.tum.de
   # address: >
     # <p>555 your office number</p>
     # <p>123 your address street</p>
@@ -16,12 +17,10 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+Hi, I'm Aleks :wave: I'm a research scientist broadly interested in trustworthy machine learning, 
+that is models and algorithms that are not only accurate or efficient but also robust, privacy-preserving, fair, interpretable, etc.
+<!--  -->
 
-I’m a Ph.D. student at the [Data Analytics and Machine Learning](https://www.in.tum.de/daml/) group at the Technical University of Munich, advised by [Stephan Günnemann](https://www.in.tum.de/daml/team/guennemann/).
+I completed my PhD on machine learning for graphs at the [DAML](https://www.in.tum.de/daml/) group at TU Munich, advised by [Stephan Günnemann](https://www.in.tum.de/daml/team/guennemann/). I have a MSc in computer science from TU Munich where I worked with Juan Miguel Cejuela at [Rostlab](https://www.rostlab.org/) on natural language mutation mentions. Before that I studied at the Faculty of Computer Science and Engineering in Skopje, Macedonia.
 
-**Research interests**:  So far my focus was on understanding and improving the robustness of machine learning techniques for graph data in the presence of noise and adversaries.
-More broadly, I am interested in trustworthy machine learning in general, including aspects such as privacy, fairness, bias, interpretability, and safety.
-
-**Previously**: I have a M.Sc. in Computer Science from the TU Munich where I worked with Juan Miguel Cejuela at [Rostlab](https://www.rostlab.org/) on extraction of natural language mutation mentions. Before that I studied Computer Science at the Faculty of Computer Science and Engineering in Skopje.
- 
- 
+**Research interests**: adversarial robustness, provable guarantees, privacy-preserving machine learning, fairness, interpretability, graph neural networks, graph representation learning, and (deep) generative models. If you are interested in working with me on these (or adjacent) topics don't hesitate to get in touch.
