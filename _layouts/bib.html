@@ -11,10 +11,13 @@
     {% endif %}
   {% endif %}
   {% if entry.award %}
-  <div> 
-    <span class="award badge">{{entry.award}}</span>
-  </div>
+  <span class="award badge">{{entry.award}}</span>
   {% endif %}
+  <!-- {% if entry.image %} -->
+  <!-- <div>
+    <img class="img-fluid z" src="{{ entry.image | prepend: '/assets/img/' | relative_url }}" />
+  </div>
+  {% endif %} -->
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8 anchor">
