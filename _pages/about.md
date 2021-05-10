@@ -21,7 +21,7 @@ Hi, I'm Aleks :wave: I'm a computer scientist broadly interested in trustworthy 
 that is models and algorithms that are not only accurate or efficient but also robust, privacy-preserving, fair, interpretable, etc.
 <!--  -->
 
-I completed my PhD on machine learning for graphs at the [DAML](https://www.in.tum.de/daml/) group at TU Munich, advised by [Stephan Günnemann](https://www.in.tum.de/daml/team/guennemann/). I have a MSc in computer science from TU Munich where I worked with Juan Miguel Cejuela at [Rostlab](https://www.rostlab.org/) on natural language mutation mentions.
+I completed my PhD on machine learning for graphs at the [DAML](https://www.in.tum.de/daml/) group at TU Munich, advised by [Stephan Günnemann](https://www.in.tum.de/daml/team/guennemann/). I have a MSc in computer science from TU Munich where I worked at [Rostlab](https://www.rostlab.org/) on natural language mutation mentions.
  <!-- Before that I studied at the Faculty of Computer Science and Engineering in Skopje, Macedonia. -->
 
 **Research interests**: adversarial robustness, provable guarantees, privacy-preserving machine learning, fairness, interpretability, graph neural networks, graph representation learning, and (deep) generative models. If you are interested in working with me on these (or adjacent) topics don't hesitate to get in touch.
