@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-01-01
+date: 2021-02-01
 inline: true
 ---
 
-Our paper on the curse of dimensionality for randomized smoothing :skull: was accepted at AISTATS 2021
+Our [paper](/publications#wu2021completing) on the curse of dimensionality for randomized smoothing :skull: was accepted at AISTATS 2021.

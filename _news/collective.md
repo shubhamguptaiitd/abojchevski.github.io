@@ -4,4 +4,4 @@ date: 2021-01-02
 inline: true
 ---
 
-Our paper on collective robustness certificates :cobweb: was accepted at ICLR 2021
+Our [paper](/publications#schuchardt2021collective) on collective robustness certificates was accepted at ICLR 2021.

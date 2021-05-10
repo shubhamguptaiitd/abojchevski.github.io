@@ -1,5 +1,34 @@
 ---
 ---
+@inproceedings{schuchardt2021collective,
+author = {Schuchardt, Jan and Bojchevski, Aleksandar and Klicpera, Johannes and G{\"u}nnemann, Stephan},
+title = {Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks},
+booktitle = {International Conference on Learning Representations, {ICLR}},
+year      = {2021},
+code      = {https://github.com/jan-schuchardt/collective_robustness},
+abbr      = {ICLR},
+category  = {conference},
+selected  = {true},
+html      = {https://openreview.net/forum?id=ULQdiUTHe3y},
+pdf       = {https://openreview.net/pdf?id=ULQdiUTHe3y},
+slides    = {slides_collective.pdf},
+poster    = {poster_collective.pdf},
+talk      = {https://www.youtube.com/watch?v=TDd3tRZGCI0},
+abstract  = {In tasks like node classification, image segmentation, and named-entity recognition we have a classifier that simultaneously outputs multiple predictions (a vector of labels) based on a single input, i.e. a single graph, image, or document respectively. Existing adversarial robustness certificates consider each prediction independently and are thus overly pessimistic for such tasks. They implicitly assume that an adversary can use different perturbed inputs to attack different predictions, ignoring the fact that we have a single shared input. We propose the first collective robustness certificate which computes the number of predictions that are simultaneously guaranteed to remain stable under perturbation, i.e. cannot be attacked. We focus on Graph Neural Networks and leverage their locality property - perturbations only affect the predictions in a close neighborhood - to fuse multiple single-node certificates into a drastically stronger collective certificate. For example, on the Citeseer dataset our collective certificate for node classification increases the average number of certifiable feature perturbations from 7 to 351.},
+}
+@inproceedings{wu2021completing,
+author    = {Wu, Yihan and Bojchevski, Aleksandar and Kuvshinov, Aleksei and G{\"u}nnemann, Stephan},
+title     = {Completing the Picture: Randomized Smoothing Suffers from the Curse of Dimensionality for a Large Family of Distributions},
+booktitle = {International Conference on Artificial Intelligence and Statistics, {AISTATS}},
+year      = {2021},
+category  = {conference},
+abbr      = {AISTATS},
+pdf       = {http://proceedings.mlr.press/v130/wu21d/wu21d.pdf},
+code      = {https://github.com/YihanWu95/smoothing},
+talk      = {https://virtual.aistats.org/virtual/2021/poster/1967},
+poster    = {poster_curse.pdf},
+abstract  = {Randomized smoothing is currently the most competitive technique for providing provable robustness guarantees. Since this approach is model-agnostic and inherently scalable we can certify arbitrary classifiers. Despite its success, recent works show that for a small class of i.i.d. distributions, the largest lp radius that can be certified using randomized smoothing decreases as $O(1/d^(1/2-1/p))$ with dimension d for p > 2. We complete the picture and show that similar no-go results hold for the l2 norm for a much more general family of distributions which are continuous and symmetric about the origin. Specifically, we calculate two different upper bounds of the l2 certified radius which have a constant multiplier of order Theta(1/d^1/2). Moreover, we extend our results to lp (p>2) certification with spherical symmetric distributions solidifying the limitations of randomized smoothing. We discuss the implications of our results for how accuracy and robustness are related, and why robust training with noise augmentation can alleviate some of the limitations in practice. We also show that on real-world data the gap between the certified radius and our upper bounds is small.},
+}
 @inproceedings{bojchevski2020sparse,
   title     = {Efficient Robustness Certificates for Discrete Data: Sparsity-Aware Randomized Smoothing for Graphs, Images and More},
   author    = {Bojchevski, Aleksandar and Klicpera, Johannes and G{\"u}nnemann, Stephan},
@@ -161,8 +190,7 @@
   category  = {workshop},
   arxiv     = {1811.05868},
   code      = {https://github.com/shchur/gnn-benchmark}
-}
-@inproceedings{shchur2018anomaly,
+}@inproceedings{shchur2018anomaly,
   author    = {Oleksandr Shchur and
                Aleksandar Bojchevski and
                Mohamed Farghal and
@@ -243,6 +271,5 @@
   category = {thesis},
   abbr     = {BEng},
 }
-
 
 
