@@ -7,7 +7,7 @@
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -20,6 +20,7 @@ while [[ $# > 0 ]]; do
         -u|--user)
         SRC_BRANCH="source"
         DEPLOY_BRANCH="master"
+        shift
         ;;
         -s|--src)
         SRC_BRANCH="$2"
@@ -29,16 +30,10 @@ while [[ $# > 0 ]]; do
         DEPLOY_BRANCH="$2"
         shift
         ;;
-        --verbose)
-        set -x
-        ;;
-        --no-push)
-        NO_PUSH="--no-push"
-        ;;
         *)
-        echo "Option $1 is unknown." >&2
-        echo $USAGE_MSG >&2
-        exit 1
+        echo "Option $1 is unknown."
+        echo $USAGE_MSG
+        exit 0
         ;;
     esac
     shift
@@ -93,7 +88,7 @@ rm -R _site/
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
+git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
