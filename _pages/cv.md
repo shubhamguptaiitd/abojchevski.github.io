@@ -1,6 +1,7 @@
 ---
 layout: none
-title: cv
+title: CV
 permalink: '/assets/pdf/cv.pdf'
 nav: true
+sort: 5
 ---
