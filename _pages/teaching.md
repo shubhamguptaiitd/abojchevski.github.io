@@ -2,7 +2,6 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-# description: tl:dr; multiple open positions, apply <a href="https://jobs.cispa.saarland/de_DE/jobs/department/research-staff-9" target="_blank" rel="noopener">here</a>. 
 nav: true
 sort: 4
 ---
