@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi, I'm Aleks :wave: I'm a tenure-track faculty at the [CISPA Helmholtz Center for Information Security](https://cispa.de){:target="_blank"} broadly interested in trustworthy machine learning, 
+Hi, I'm Aleks :wave: I'm a tenure-track faculty at the [CISPA Helmholtz Center for Information Security](https://cispa.de){:target="_blank"}. I'm broadly interested in trustworthy machine learning, 
 that is models and algorithms that are not only accurate or efficient but also robust, privacy-preserving, fair, uncertainty-aware, interpretable, etc.
 <!--  -->
 

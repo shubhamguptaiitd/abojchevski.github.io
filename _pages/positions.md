@@ -53,9 +53,9 @@ Applications will be considered as they arrive and until the positions are fille
 
 
 ### Bachelor/Master Thesis
-We offer multiple Bachelor/Master theses in the broad area of trustworthy machine learning. If you are interested in a thesis please send your CV and transcript of records to Aleksandar Bojchevski via [email](mailto:[insert_lastname]@cispa.de) using the subject line `[Thesis]` and we will arrange a meeting to discuss potential topics.
+We offer multiple Bachelor/Master theses in the broad area of trustworthy machine learning. If you are interested in a thesis please send your CV and transcripts of records to Aleksandar Bojchevski via [email](mailto:[insert_lastname]@cispa.de) using the subject line `[Thesis]` and we will arrange a meeting to discuss potential topics.
 {:align="justify"}
 
 ### Student Assistant
-For students enrolled at the Saarland University we offer a paid (~12 €/h) student assistant position (Hiwi). The goal of the position is to support us in our research. If you are interested please send your CV and transcript of records to Aleksandar Bojchevski via [email](mailto:[insert_lastname]@cispa.de) using the subject line `[Hiwi]`.
+For students enrolled at the Saarland University we offer a paid (~12 €/h) student assistant position (Hiwi). The goal of the position is to support us in our research. If you are interested please send your CV and transcripts of records to Aleksandar Bojchevski via [email](mailto:[insert_lastname]@cispa.de) using the subject line `[Hiwi]`.
 {:align="justify"}
