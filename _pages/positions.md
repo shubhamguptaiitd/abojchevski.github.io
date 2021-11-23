@@ -7,7 +7,7 @@ sort: 4
 ---
 
 ### PhD/PostDoc Positions
-We are looking for talented and highly motivated people with computer science (or related) background interested in trustworthy machine learning research. We offer fully-funded PhD/PostDoc positions on one or more of the following topics: adversarial robustness (attacks, defenses, certificates), privacy attacks and privacy-preserving learning, algorithmic fairness and bias, uncertainty-aware models and out-of-distribution detection, explainability.
+We are looking for talented and highly motivated people with computer science (or related) background interested in trustworthy machine learning research. We offer fully-funded PhD/PostDoc positions on one or more of the following topics: adversarial robustness (attacks, defenses, certificates), privacy attacks and privacy-preserving learning, algorithmic fairness and bias, uncertainty-aware models and out-of-distribution detection, out-of-domain generalization, explainability.
 If you are interested in working with us on these (or adjacent) topics keep reading.
 {:align="justify"}
 
@@ -18,7 +18,7 @@ The main focus will be on graph-based models such as Graph Neural Networks (GNNs
 The positions are situated at the [CISPA Helmholtz Center for Information Security](https://cispa.de){:target="_blank"} which provides a unique work environment offering the advantages of a university department and a research laboratory alike. CISPA is located 
 in Saarbrücken, in a tri-border area of Germany, France, and Luxembourg. 
 <!--  -->
-As a PhD candidate you will be admitted to the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/){:target="_blank"}. After you successfully handed in your dissertation and defended your thesis you will graduate with a doctorate (Dr. rer. nat. or Dr. Ing.) in Computer Science from Saarland University.
+As a PhD candidate you will be admitted to the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/){:target="_blank"}. After you successfully handed in your dissertation and defended your thesis you will graduate with a doctorate (Dr. rer. nat.) in Computer Science from Saarland University.
 {:align="justify"}
 
 ##### Your profile
