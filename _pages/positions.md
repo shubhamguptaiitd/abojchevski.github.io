@@ -7,26 +7,23 @@ sort: 4
 ---
 
 ### PhD/PostDoc Positions
-We are looking for talented and highly motivated people with computer science (or related) background interested in trustworthy machine learning research. We offer fully-funded PhD/PostDoc positions on one or more of the following topics: adversarial robustness (attacks, defenses, certificates), privacy attacks and privacy-preserving learning, algorithmic fairness and bias, uncertainty-aware models and out-of-distribution detection, out-of-domain generalization, explainability.
-If you are interested in working with us on these (or adjacent) topics keep reading.
+We are looking for people with computer science (or related) background interested in trustworthy machine learning research. We offer fully-funded PhD/PostDoc positions on one or more of the following topics: adversarial robustness (attacks, defenses, certificates), privacy attacks and privacy-preserving learning, algorithmic fairness and bias, uncertainty-aware models and out-of-distribution detection, out-of-domain generalization, and explainability. If you are interested in working with us on these (or adjacent) topics keep reading.
 {:align="justify"}
 
 The main focus will be on graph-based models such as Graph Neural Networks (GNNs) which have emerged as a fundamental building block in many AI systems. Why graphs? Because they are everywhere! Neural connections in the brain, molecules, social networks, interactions between proteins, source code, and the structure of the Web seem to be entirely disparate phenomena at a first glance. Yet, if we abstract them as graphs -- simply a set of nodes connected by a set of edges -- we can view and study them through a common lens. Indeed, graph-based machine learning models are used across many domains for various high-impact applications. How can we make them trustworthy?
 <!--  -->
 {:align="justify"}
 
-The positions are situated at the [CISPA Helmholtz Center for Information Security](https://cispa.de){:target="_blank"} which provides a unique work environment offering the advantages of a university department and a research laboratory alike. CISPA is located 
-in Saarbrücken, in a tri-border area of Germany, France, and Luxembourg. 
+The positions are situated at the [CISPA Helmholtz Center for Information Security](https://cispa.de){:target="_blank"} which provides a unique international work environment offering the advantages of a university department and a research laboratory alike. CISPA is located in Saarbrücken, in a tri-border area of Germany, France, and Luxembourg (knowledge of German is not required).
 <!--  -->
-As a PhD candidate you will be admitted to the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/){:target="_blank"}. After you successfully handed in your dissertation and defended your thesis you will graduate with a doctorate (Dr. rer. nat.) in Computer Science from Saarland University.
+As a PhD candidate you will be admitted to the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/){:target="_blank"}. After you successfully hand in your dissertation and defend your thesis you will graduate with a doctorate (Dr. rer. nat.) in Computer Science from [Saarland University](https://www.uni-saarland.de/en/home.html){:target="_blank"}.
 {:align="justify"}
 
 ##### Your profile
-* A Master (or equivalent) degree with excellent grades in Computer Science or a closely related field
-* Strong programming skills in at least one programming language (preferably Python)
-* Excellent communication skills in English (knowledge of German is not required)
-* Strong background in machine learning and/or data mining
-* Solid mathematical foundation (e.g. probability theory, statistics, calculus, and linear algebra)
+* A Master (or equivalent) degree in Computer Science or a closely related field
+* Programming skills in at least one programming language (preferably Python)
+* Background in machine learning and/or data mining
+* Solid mathematical foundation (e.g. probability theory, statistics, calculus, and linear algebra) is a plus
 * Experience with frameworks such as PyTorch, TensorFlow, or similar is a plus
 * For PostDocs: PhD in a closely related area and publications at the following venues: ICML, NeurIPS, ICLR, KDD, WWW, AAAI, AISTATS
 
